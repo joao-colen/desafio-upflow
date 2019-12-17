@@ -1,6 +1,6 @@
 # Desafio Upflow
 
-This project was generated with [Javascript](https://www.javascript.com/), [HTML](https://html.com/) e [CSS]https://devdocs.io/css/).
+This project was generated with [Javascript](https://www.javascript.com/), [HTML](https://html.com/) e [CSS](https://devdocs.io/css/).
 
 ## Installation
 
