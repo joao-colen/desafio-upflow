@@ -2,10 +2,14 @@ function generateInputs() {
     for(let i=0; i<$("#number_of_inputs").val(); i++) {
         $("<input type='number' class='campos_soma form-control' style='width: 20%; margin-left: 40%; text-align: center'> ").insertAfter(".input-group");
     }
-    $("#number_of_inputs").val('');
-    if($("button#calculate_soma").length == 0) {
-        $("div#soma").append("<button id='calculate_soma' class='btn btn-primary' onclick='soma()' style='margin-left: 40%; width: 20%;'>Somar</button>");
+    
+    if($("#number_of_inputs").val() != '' ) {
+        $("#number_of_inputs").val('');
+        if($("button#calculate_soma").length == 0) {
+            $("div#soma").append("<button id='calculate_soma' class='btn btn-primary' onclick='soma()' style='margin-left: 40%; width: 20%;'>Somar</button>");
+        }
     }
+    
 
 }
 
